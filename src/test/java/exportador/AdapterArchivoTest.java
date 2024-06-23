@@ -15,9 +15,9 @@ public class AdapterArchivoTest {
     @Before
     public void setUp() throws SQLException {
         // Establece la conexión a la base de datos
-        String url = "jdbc:mysql://localhost:3306/testdb";
+        String url = "jdbc:mysql://localhost:3306/validacion";
         String username = "root";
-        String password = "password";
+        String password = "admin";
         connection = DriverManager.getConnection(url, username, password);
 
         // Crea la tabla si no existe
